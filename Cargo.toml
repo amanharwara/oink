@@ -1,0 +1,16 @@
+[package]
+name = "oink"
+description = "Pig Latin converter written in Rust"
+version = "0.1.0"
+authors = ["Aman Harwara <amanharwara@protonmail.com>"]
+edition = "2018"
+homepage = "https://gitlab.com/amanharwara/oink"
+repository = "https://gitlab.com/amanharwara/oink"
+license = "GPL-3.0-or-later"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1"
+lazy_static = "1.4.0"
